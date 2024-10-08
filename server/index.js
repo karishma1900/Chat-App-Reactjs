@@ -36,7 +36,7 @@ mongoose.connect(process.env.MONGO_URL, {
 // Socket.io setup
 const io = socket(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://chat-app-reactjs-vcek.onrender.com",
         credentials: true,
     }
 });
