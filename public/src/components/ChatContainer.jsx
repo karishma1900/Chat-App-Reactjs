@@ -21,7 +21,7 @@ export default function ChatContainer({ currentChat }) {
 
   useEffect(() => {
     if (userData) {
-      socket.current = io("http://localhost:5000");
+      socket.current = io("https://chat-app-backend-huiv.onrender.com/");
 
       socket.current.on("connect", () => {
         console.log("Connected to server");
