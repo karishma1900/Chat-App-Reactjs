@@ -84,7 +84,7 @@ const Container = styled.div`
           }
         }
         
-        .emoji-categories {
+        .EmojiPickerReactCategories {
             background-color: transparent;
           button {
             filter: contrast(0);
@@ -144,5 +144,10 @@ const Container = styled.div`
         color: white;
       }
     }
+  }
+  .epr_-quhs3c {
+    width: 100%;
+    color: white;
+    background-color: transparent;
   }
 `;
