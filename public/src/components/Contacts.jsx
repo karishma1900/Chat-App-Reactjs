@@ -32,7 +32,7 @@ export default function Contacts({ contacts, currentUser, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt='logo' />
-            <h3>Snappy</h3>
+            <h3>Chat App</h3>
           </div>
           <div className="contacts">
             {contacts && contacts.length > 0 ? (
